@@ -1,1 +1,2 @@
 find . -type f -exec cwebp -q 90 {} -o {}.webp \;
+https://superuser.com/questions/26935/convert-a-bunch-of-bmp-files-to-jpeg-on-linux
