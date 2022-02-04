@@ -8,7 +8,6 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
     <link rel="stylesheet" type="text/css" href="style.min.css">
     <title>Contactez nous - La Chouette Agence</title>
     <meta name="description" content="Contactez nous pour un devis gratuit">
@@ -76,27 +75,20 @@
                     <div class="col-sm-6">
                         <form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
                             <div class="form-group">
-                                <label>
-                                    Nom
-                                </label>
+                                <label for="name">Nom</label>
                                 <input id="name" class="form-control" required />
                             </div>
                             <div class="form-group">
-                                <label>
-                                    Adresse email
-                                </label>
+                                <label for="email">Adresse email</label>
                                 <input id="email" class="form-control" type="email" required />
                             </div>
                             <div class="form-group">
-                                <label>
-                                    Comment nous avez-vous connu ?
-                                </label>
-                                <input class="form-control" type="email" required id="input_504" />
+                                <label for="input_504">Comment nous avez-vous connu ?</label>
+                                <input class="form-control" type="text" required id="input_504" />
                             </div>
                             <div class="form-group">
-                                <label>
-                                    Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-                                </label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+                                <label for="message"> Brief de votre projet (Ajoutez autant de détails que nécessaire)<br> </label>
+                                <textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
                             </div>
                             <button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
                                 Envoyer
@@ -158,6 +150,7 @@
     <!-- Principal conteneur END -->
 
 
+    <!-- <link rel="stylesheet" type="text/css" href="./css/et-line.min.css"> -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js" integrity="sha512-qp27nuUylUgwBZJHsmm3W7klwuM5gke4prTvPok3X5zi50y3Mo8cgpeXegWWrdfuXyF2UdLWK/WCb5Mv7CKHcA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
