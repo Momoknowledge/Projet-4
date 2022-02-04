@@ -1,2 +1,13 @@
 find . -type f -exec cwebp -q 90 {} -o {}.webp \;
 https://superuser.com/questions/26935/convert-a-bunch-of-bmp-files-to-jpeg-on-linux
+
+
+/home/momo/Developpement/web/Projet-4/Starting-website/index.html
+
+terser --compress --mangle -o formHandler.min.js -- formHandler.js
+sass et-line.css:et-line.min.css --style compressed
+
+mogrify -format ico *.jpg
+mogrify -format webp *.jpg
+mogrify -format webp *.png
+mogrify -format webp *.webp
