@@ -1083,3 +1083,7 @@ h4 {
         text-align: center;
     }
 }
+
+.img-responsive {
+    display: inline !important;
+}
