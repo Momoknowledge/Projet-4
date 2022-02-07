@@ -1,6 +1,6 @@
 {
     "headers": [{
-        "source": "**/*.@(jpg|jpeg|gif|png|webp|woff|css)",
+        "source": "**/*.@(jpg|jpeg|gif|png|webp|woff|woff2|css)",
         "headers": [{
             "key": "Cache-Control",
             "value": "max-age=31536000"
