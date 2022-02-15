@@ -1084,6 +1084,6 @@ h4 {
     }
 }
 
-/* .img-responsive {
-    display: inline !important;
-} */
+.img-responsive {
+    margin: auto;
+}
